@@ -195,15 +195,6 @@ section{padding-block:var(--s6)}
 .mini .m-cta{display:inline-block;border-radius:99px;padding:.5em 1.3em;font-weight:700;font-size:.95em}
 .mini .m-cards{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5%;margin-top:11%}
 .mini .m-cards b{display:block;aspect-ratio:1/1.15;border-radius:.6em}
-.mini-acct{background:#0f2e2a;color:#eef6f3}
-.mini-acct .m-cta{background:#d9a441;color:#0f2e2a}
-.mini-acct .m-cards b{background:#1b423c}
-.mini-surv{background:#f4f1ea;color:#2a2b26}
-.mini-surv .m-cta{background:#2a2b26;color:#f4f1ea}
-.mini-surv .m-cards b{background:#dcd6c6}
-.mini-sol{background:#fff;color:#20202b}
-.mini-sol .m-cta{background:#5b2333;color:#fff}
-.mini-sol .m-cards b{background:#efeff4}
 /* Live work: real, published sites. Cards are links, so they respond. */
 .shot-link{display:block;text-decoration:none;color:inherit;border-radius:var(--radius);
   transition:transform .2s cubic-bezier(.2,0,0,1),box-shadow .2s cubic-bezier(.2,0,0,1)}
@@ -217,8 +208,6 @@ section{padding-block:var(--s6)}
 @media (min-width:720px){ .shots-live{grid-template-columns:repeat(2,1fr)} }
 @media (min-width:1120px){ .shots-live{grid-template-columns:repeat(4,1fr)} }
 .work-note{margin-top:var(--s3);font-size:.9rem;opacity:.75}
-.work-subhead{margin-top:var(--s5);font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;
-  color:#9aa0aa;font-weight:700}
 
 .mini-liffey{background:#edf0f4;color:#1b2d4f}
 .mini-liffey .m-cta{background:#1b2d4f;color:#fff}
@@ -440,8 +429,7 @@ section{padding-block:var(--s6)}
   <section id="work" class="band-ink" aria-labelledby="work-h">
     <div class="wrap">
       <h2 id="work-h">Websites that look expensive.<br>Without the expensive website project.</h2>
-      <p class="kicker-note measure">Websites you can open and explore, plus concept work for the kinds of businesses we build for. Every website is designed around the individual business — same process, different website.</p>
-      <p class="work-subhead">Live — open them and look around</p>
+      <p class="kicker-note measure">Websites you can open and look around. Every one is designed around the individual business — same process, different website.</p>
       <div class="shots shots-live">
         <figure class="shot">
           <a class="shot-link" href="https://daithimurray.github.io/projects/liffey-accountancy/" target="_blank" rel="noopener"
@@ -509,48 +497,6 @@ section{padding-block:var(--s6)}
         </figure>
       </div>
       <p class="kicker-note measure work-note">Three of these are demonstration businesses built to show the process end to end. David&rsquo;s Driving School is a real one.</p>
-      <p class="work-subhead">Concept work</p>
-      <div class="shots">
-        <figure class="shot">
-          <div class="browserframe">
-            <div class="chrome" aria-hidden="true"><i></i><i></i><i></i><span class="url">osheaaccountants.ie</span></div>
-            <div class="mini mini-acct" role="img" aria-label="Concept homepage for an accountancy practice: dark green with gold accents, headline 'Accounts in order. Decisions made easy.'">
-              <div class="m-nav" aria-hidden="true"><span class="m-logo">O'Shea</span><span class="m-links"><i></i><i></i><i></i></span></div>
-              <h4 aria-hidden="true">Accounts in order. Decisions made easy.</h4>
-              <div class="m-sub" aria-hidden="true"><i></i><i></i></div>
-              <span class="m-cta" aria-hidden="true">Book a consultation</span>
-              <div class="m-cards" aria-hidden="true"><b></b><b></b><b></b></div>
-            </div>
-          </div>
-          <figcaption>Accountancy practice <span class="tag">Concept</span></figcaption>
-        </figure>
-        <figure class="shot">
-          <div class="browserframe">
-            <div class="chrome" aria-hidden="true"><i></i><i></i><i></i><span class="url">walshsurveying.ie</span></div>
-            <div class="mini mini-surv" role="img" aria-label="Concept homepage for a surveying firm: warm stone tones, headline 'Measured. Mapped. Certain.'">
-              <div class="m-nav" aria-hidden="true"><span class="m-logo">Walsh</span><span class="m-links"><i></i><i></i><i></i></span></div>
-              <h4 aria-hidden="true">Measured. Mapped. Certain.</h4>
-              <div class="m-sub" aria-hidden="true"><i></i><i></i></div>
-              <span class="m-cta" aria-hidden="true">Request a survey</span>
-              <div class="m-cards" aria-hidden="true"><b></b><b></b><b></b></div>
-            </div>
-          </div>
-          <figcaption>Surveying firm <span class="tag">Concept</span></figcaption>
-        </figure>
-        <figure class="shot">
-          <div class="browserframe">
-            <div class="chrome" aria-hidden="true"><i></i><i></i><i></i><span class="url">brennanlaw.ie</span></div>
-            <div class="mini mini-sol" role="img" aria-label="Concept homepage for a solicitors' practice: white with deep burgundy accents, headline 'Clear advice when it matters.'">
-              <div class="m-nav" aria-hidden="true"><span class="m-logo">Brennan</span><span class="m-links"><i></i><i></i><i></i></span></div>
-              <h4 aria-hidden="true">Clear advice when it matters.</h4>
-              <div class="m-sub" aria-hidden="true"><i></i><i></i></div>
-              <span class="m-cta" aria-hidden="true">Talk to a solicitor</span>
-              <div class="m-cards" aria-hidden="true"><b></b><b></b><b></b></div>
-            </div>
-          </div>
-          <figcaption>Solicitors' practice <span class="tag">Concept</span></figcaption>
-        </figure>
-      </div>
       <p class="port-cta"><a href="#book" data-event="cta_book_click" data-location="portfolio">See what we could build for your business →</a></p>
     </div>
   </section>
